@@ -1,5 +1,3 @@
-Below is the updated **README** with instructions on how to install and run the CLI via `npx`:
-
 ---
 
 # Frontend Stack Setup CLI
