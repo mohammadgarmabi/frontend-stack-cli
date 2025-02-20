@@ -1,0 +1,27 @@
+{
+  "name": "frontend-stack-cli",
+  "version": "0.0.1",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "frontend-stack-cli": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "CLI",
+    "Stack Setup",
+    "Project Setup"
+  ],
+  "author": "Mohammad Garmabi",
+  "license": "ISC",
+  "description": "A CLI tool for setting up Stack Setup projects. It provides a guided process for creating a new project, selecting the project starter, additional features, project architecture, and tools.",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.4.1"
+  },
+  "preferGlobal": true
+}
