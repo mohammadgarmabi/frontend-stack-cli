@@ -19,7 +19,7 @@ export const getStackConfig = async () => {
       message: "Please select your stack project starter:",
       choices: [
         { name: "React with Vite", value: "react-vite" },
-        // { name: "React with Remix", value: "react-remix" },
+        // { name: "Remix", value: "remix.run" },
       ],
     },
     {
